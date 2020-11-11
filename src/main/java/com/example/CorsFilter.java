@@ -8,7 +8,7 @@ import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class CacheFilter implements Filter {
+public class CorsFilter implements Filter {
 	protected FilterConfig filterConfig;
 
 	public void init(FilterConfig filterConfig) {
