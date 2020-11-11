@@ -12,7 +12,6 @@ public class CorsFilter implements Filter {
 	protected FilterConfig filterConfig;
 
 	public void init(FilterConfig filterConfig) {
-		this.filterConfig = filterConfig;
 	}
 
 	public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) {
@@ -23,6 +22,5 @@ public class CorsFilter implements Filter {
 	}
 
 	public void destroy() {
-		this.filterConfig = null;
 	}
 }
