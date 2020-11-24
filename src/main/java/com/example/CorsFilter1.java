@@ -1,6 +1,6 @@
 @Provider
 @PreMatching
-public class CorsFilter implements ContainerRequestFilter, ContainerResponseFilter {
+public class CorsFilter1 implements ContainerRequestFilter, ContainerResponseFilter {
 
     /**
      * Method for ContainerRequestFilter.
