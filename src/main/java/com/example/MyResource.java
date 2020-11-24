@@ -22,11 +22,12 @@ public class MyResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String getIt() throws URISyntaxException {
-        URI dbUri = new URI(System.getenv("DATABASE_URL"));
+//         URI dbUri = new URI(System.getenv("DATABASE_URL"));
 
-        String username = dbUri.getUserInfo().split(":")[0];
-        String password = dbUri.getUserInfo().split(":")[1];
-        String dbUrl = "jdbc:postgresql://" + dbUri.getHost() + dbUri.getPath();
+//         String username = dbUri.getUserInfo().split(":")[0];
+//         String password = dbUri.getUserInfo().split(":")[1];
+//         String dbUrl = "jdbc:postgresql://" + dbUri.getHost() + dbUri.getPath();
+        String dbUrl = "Under Construction";
         return dbUrl;
     }
     
